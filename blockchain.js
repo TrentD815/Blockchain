@@ -1,5 +1,6 @@
-// Messing around with actual an blockchain implementation
+// Messing around with an actual blockchain implementation
 // Credit to Alfrick Opidi on smashingmagazine.com for the introduction
+
 const SHA256 = require("crypto-js/sha256");
 class CryptoBlock {
   constructor(index, timestamp, data, precedingHash = " ") {
